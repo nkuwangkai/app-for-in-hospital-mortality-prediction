@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import joblib
+import streamlit as st
+
 # Title
 st.header("Machine learning app for in-hospital mortality prediction")
 
@@ -12,7 +17,6 @@ MCHC = st.number_input("MCHC (g/L)")
 MCV = st.number_input("MCV (fL)")
 RDW = st.number_input("RDW")
 WBC = st.number_input("WBC (×109/L)")
-
 Race = st.number_input("Race (white=1,black=2,others=3)")
 Norepinephrine = st.number_input("Norepinephrine (No=0,Yes=1)")
 Dopamine = st.number_input("Dopamine (No=0,Yes=1)")
