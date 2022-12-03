@@ -1,7 +1,3 @@
-# app-for-in-hospital-mortality-prediction
-pip instal joblib
-pip instal streamlit
-
 import pandas as pd
 import numpy as np
 import joblib
