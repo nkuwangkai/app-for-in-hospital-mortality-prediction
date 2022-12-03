@@ -1,8 +1,3 @@
-import pandas as pd
-import numpy as np
-import joblib
-import streamlit as st
-
 # Title
 st.header("Machine learning app for in-hospital mortality prediction")
 
