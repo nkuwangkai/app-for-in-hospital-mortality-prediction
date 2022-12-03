@@ -1,7 +1,12 @@
-import streamlit as st
 import pandas as pd
-import pickle
+import numpy as np
+import xgboost as xgb
+import sklearn
+from sklearn.utils import shuffle
+from bayes_opt import BayesianOptimization
+from xgboost.sklearn import XGBClassifier
 import joblib
+import streamlit as st
 
 # Title
 st.header("Machine learning app for in-hospital mortality prediction")
